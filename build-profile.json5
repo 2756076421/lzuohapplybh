@@ -1,0 +1,41 @@
+{
+  "app": {
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default"
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/shiftwilliam/.ohos/config/auto_debug_lybh_com.example.lybh_30086000787118063.cer",
+          "storePassword": "0000001B142D64A45DD50C4494C899BBDAB2044D4EA5885F172CAE782DD04CA72D8792DDF314B6E8158296",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BE71D0A88CE177F53BD5ED081116CC01606E4E051D8E9D4218282E8C9DA99F88398067888D8374A",
+          "profile": "/Users/shiftwilliam/.ohos/config/auto_debug_lybh_com.example.lybh_30086000787118063.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/shiftwilliam/.ohos/config/auto_debug_lybh_com.example.lybh_30086000787118063.p12"
+        }
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
